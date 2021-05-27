@@ -1,0 +1,74 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+}
+
+p {
+    font-size: 2vh;
+}
+
+button{
+    font-family: 'Source Serif Pro', serif;
+	font-size: 22px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 15px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+button:hover{
+	background-color: #38a;
+}
+
+.game-container{
+    width: 380px;
+    height: 290px;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.grid-wrapper {
+    width: 350px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px 1fr;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}   
+.b1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+.b2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+.b3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+.r1 {
+    grid-column: 1;
+    grid-row: 2;
+}
+.r2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+.r3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+.rectangle {
+    border-style: solid;
+}
+#question-text {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 2vh
+}

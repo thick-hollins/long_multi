@@ -1,42 +1,38 @@
-body {
-    font-family: 'Source Serif Pro', serif;
+html *
+{
+   font-size: 5vw !important;
+   font-family: 'Source Serif Pro', serif !important;
 }
 
-p {
-    font-size: 2vh;
+body {
+    background-color: #fff;
 }
 
 button{
-    font-family: 'Source Serif Pro', serif;
-	font-size: 22px;
-	background-color: #279;
+	background-color: rgb(189, 189, 189);
 	color: #fff;
 	border: 0px;
-	border-radius: 3px;
-	padding: 15px;
+	border-radius: 0.5vw;
+	padding: 2vw;
 	cursor: pointer;
-	margin-bottom: 20px;
+	margin-bottom: 2vw;
 }
 button:hover{
-	background-color: #38a;
+	background-color: rgb(214, 214, 214);
 }
-
 .game-container{
-    width: 380px;
-    height: 290px;
-    margin: auto;
     display: grid;
-    gap: 10px;
+    gap: 1vw;
     justify-items: center;
     align-items: center;
 }
 .grid-wrapper {
-    width: 350px;
+    width: 70vw;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 80px 1fr;
-    gap: 10px;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1vw;
     justify-items: center;
     align-items: center;
 }   
@@ -65,10 +61,11 @@ button:hover{
     grid-row: 2;
 }
 .rectangle {
-    border-style: solid;
+    border-style: dotted;
+    border-width: 0.25vw;
 }
 #question-text {
     text-align: center;
-    padding-bottom: 20px;
-    font-size: 2vh
+    margin-top: 3vw;
+    margin-bottom: 4vw;
 }

@@ -61,7 +61,7 @@ button:hover{
     grid-row: 2;
 }
 .rectangle {
-    border-style: dotted;
+    border-style: solid;
     border-width: 0.25vw;
 }
 #question-text {

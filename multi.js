@@ -38,16 +38,16 @@ function showQuestion() {
   output.push('</div>')
   output.push(`<style>
                .rectangle1 {
-                 height: ${question.answer1.a / 7}vw;
-                 width: ${question.answer1.b / 7}vw;
+                 height: ${question.answer1.a / 5}vw;
+                 width: ${question.answer1.b / 5}vw;
                }
                .rectangle2 {
-                 height: ${question.answer2.a / 7}vw;
-                 width: ${question.answer2.b / 7}vw;
+                 height: ${question.answer2.a / 5}vw;
+                 width: ${question.answer2.b / 5}vw;
                }
                .rectangle3 {
-                 height: ${question.answer3.a /7}vw;
-                 width: ${question.answer3.b / 7}vw;
+                 height: ${question.answer3.a / 5}vw;
+                 width: ${question.answer3.b / 5}vw;
                }
                </style>`);
   output.push(`<div class="grid-wrapper">
